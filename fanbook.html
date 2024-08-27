@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <title>Sparta Coding Club | Bootstrap Practice</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: "Moderustic", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 600;
+            font-style: normal;
+        }
+
+
+        .mytitle {
+            width: 100%;
+            height: 300px;
+            background-image: url('https://images.alphacoders.com/916/thumb-1920-916182.jpg');
+            background-position: center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mycontainer {
+            box-shadow: 0px 0px 3px 0px gray;
+            padding: 20px;
+            margin: auto;
+            width: 95%;
+            max-width: 500px;
+        }
+
+        .card {
+            box-shadow: 0px 0px 3px 0px gray;
+            padding: 10px;
+            margin: auto;
+            width: 95%;
+            max-width: 500px;
+        }
+
+        .mycard {
+            padding-top: 20px;
+        }
+
+        .mybutton {
+            text-align: center;
+        }
+
+        .mybox {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mytitle">
+
+        <h1>Jurassic Park Fan</h1>
+
+    </div>
+
+    <div class="mybox">
+        <div class="mycontainer">
+            <div class="mb-3">
+                <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="NickName">
+            </div>
+
+            <div class="mb-3">
+                <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="FanMessage"></textarea>
+            </div>
+            <div class="mybutton">
+                <button class="btn btn-dark" type="button">Leave a Fan Message</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mycard">
+        <div class="card">
+            <figure class="text-center">
+                <blockquote class="blockquote">
+                    <p>"Welcome to Jurassic Park."</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                    John Hammond
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="mycard">
+            <div class="card">
+                <figure class="text-center">
+                    <blockquote class="blockquote">
+                        <p>"Dinosaurs eat Man. Woman inherits the earth."</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Ellie Sattler
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <div class="mycard">
+            <div class="card">
+                <figure class="text-center">
+                    <blockquote class="blockquote">
+                        <p>"What have they got in there, King Kong?"</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                        Ian Malcolm
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
